@@ -29,7 +29,7 @@ function setup() {
   }
   else{
     screenWidth = windowHeight*2;
-    screenHeight = height;
+    screenHeight = windowHeight;
   }
   heading.textContent = "click to hit the corners";
   createCanvas(screenWidth, screenHeight);
